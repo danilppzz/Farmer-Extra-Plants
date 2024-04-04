@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+logoFile="farmer_extra_plants.png"
+
+#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
+
+[[mods]]
+modId="farmer_extra_plants"
+version="1.0"
+displayName="Farmer's Extra Plants"
+displayURL="https://danilppzz.dev/"
+authors="danilppzz"
+description='''This mod add some extra plants and foot to the game.'''
+
+[modproperties.farmer_extra_plants]
+    configuredBackground="minecraft:textures/block/lime_terracotta.png"
+
+[[dependencies.farmer_extra_plants]]
+modId="neoforge"
+type="required"
+versionRange="${neo_version_range}"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.farmer_extra_plants]]
+modId="minecraft"
+type="required"
+versionRange="${minecraft_version_range}"
+ordering="NONE"
+side="BOTH"

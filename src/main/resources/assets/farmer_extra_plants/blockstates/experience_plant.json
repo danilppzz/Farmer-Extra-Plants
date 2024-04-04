@@ -1,10 +1,22 @@
 {
   "variants": {
-    "": {
+    "age=0": {
       "model": "minecraft:block/azalea_leaves"
     },
-    "lit=true": {
+    "age=1": {
       "model": "minecraft:block/azalea_leaves"
+    },
+    "age=2": {
+      "model": "minecraft:block/azalea_leaves"
+    },
+    "age=3": {
+      "model": "minecraft:block/azalea_leaves"
+    },
+    "age=4": {
+      "model": "minecraft:block/azalea_leaves"
+    },
+    "age=5": {
+      "model": "farmer_extra_plants:block/experience_plant_stage1"
     }
   }
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "farmer_extra_plants:block/experience_plant_stage1"
+  }
+}

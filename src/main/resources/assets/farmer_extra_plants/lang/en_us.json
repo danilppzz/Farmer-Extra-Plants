@@ -1,5 +1,6 @@
 {
   "itemGroup.farmer_extra_plants": "Farmer's Extra Plants",
   "item.farmer_extra_plants.experience_nugget": "Experience Nugget",
+  "item.farmer_extra_plants.experience_seed": "Experience Seed",
   "block.farmer_extra_plants.experience_plant": "Experience Plant"
 }

@@ -15,10 +15,10 @@ public class Configuration
             .comment("The growing speed in ticks")
             .defineInRange("growingSpeed", 100, 0, Integer.MAX_VALUE);
 
-    private static final ModConfigSpec.IntValue MAX_EXPERIENCE = BUILDER
+    private static final ModConfigSpec.IntValue MAX_EXPERIENCE_FOOD = BUILDER
             .comment("The max experience points a player can get from fruits.")
             .comment("The min value is 1 that is equals to 0")
-            .defineInRange("maxExperience", 40, 1, Integer.MAX_VALUE);
+            .defineInRange("maxExperience", 30, 1, Integer.MAX_VALUE);
 
 
 
@@ -31,6 +31,6 @@ public class Configuration
     static void onLoad(final ModConfigEvent event)
     {
         growingSpeed = GROWING_SPEED.get();
-        maxExperience = MAX_EXPERIENCE.get();
+        maxExperience = MAX_EXPERIENCE_FOOD.get();
     }
 }
